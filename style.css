@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}   /*resetto il CSS*/
+
+body{
+    padding:0px 150px 30px 150px;
+    /*margin:auto;*/
+}
+
+.container{ /*controllare*/
+    width: 80%;
+    /*height: 700px;*/
+    margin: 10px auto;
+}
+
+header{
+    height: 70px;
+    background-color: violet;
+}
+
+#section-1{
+    height:500px;
+    background-color: rgb(145, 145, 5);
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+#section-2{
+    height: 500px;
+    background-color: rgb(37, 34, 224);
+    margin-bottom: 10px;
+}
+
+#section-2-top{
+    height:98px;
+    background-color: cyan;
+    margin-bottom:2px;
+}
+
+#section-2-bottom::after{ /*così da non far collassare il div che contiene le tre sotto sezioni*/
+    height: 400px;
+    content:" ";
+    display:table;
+    clear:both;
+}
+
+#left{
+    width: 20%;
+    height:398px;
+    background-color: cyan;
+    float:left;
+    margin-bottom: 2px;
+}
+
+#center{
+width:58%;
+height: 398px;
+background-color: cyan;
+float:left;
+margin-left:2px;
+margin-right:2px;
+margin-bottom:2px;
+}
+
+#right{
+    width: 20%;
+    height: 398px;
+    background-color: cyan;
+    float:left;
+    margin-bottom:2px;
+}
+
+footer{
+    height: 30px;
+    background-color: rgb(98, 3, 98);
+}
