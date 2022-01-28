@@ -20,7 +20,7 @@ header{
 }
 
 #section-1{
-    height:500px;
+   /* height:500px;*/
     background-color: rgb(145, 145, 5);
     margin-top:30px;
     margin-bottom:30px;
@@ -42,7 +42,7 @@ header{
 }
 
 #section-2-bottom::after{ /*così da non far collassare il div che contiene le tre sotto sezioni*/
-    height: 400px;
+    /*height: 400px;*/
     content:" ";
     display:table;
     clear:both;
@@ -50,31 +50,28 @@ header{
 
 #left{
     width: 20%;
-    height:390px;
+    /*height:390px;*/
     background-color: cyan;
     float:left;
     margin-bottom: 10px;
-    background-image: url("img/img-1.jpg");
 }
 
 #center{
 width:56%;
-height: 390px;
+/*height: 390px;*/
 background-color: cyan;
 float:left;
 margin-left:2%;
 margin-right:2%;
 margin-bottom:10px;
-background-image: url(img/banner-2.jpg);
 }
 
 #right{
     width: 20%;
-    height: 390px;
+    /*height: 390px;*/
     background-color: cyan;
     float:left;
     margin-bottom:10px;
-    background-image: url("img/img-3.jpg");
 }
 
 footer{
