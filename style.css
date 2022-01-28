@@ -5,18 +5,17 @@
 }   /*resetto il CSS*/
 
 body{
-    padding:0px 150px 30px 150px;
-    /*margin:auto;*/
+   /* padding:0px 150px 30px 150px;*/
 }
 
-.container{ /*controllare*/
-    width: 80%;
-    /*height: 700px;*/
+.container{ 
+    width: 70%;
+    height: 700px;
     margin: 10px auto;
 }
 
 header{
-    height: 70px;
+   /* height: 70px;*/
     background-color: violet;
 }
 
@@ -25,18 +24,21 @@ header{
     background-color: rgb(145, 145, 5);
     margin-top:30px;
     margin-bottom:30px;
+    background-image: url("img/banner.jpg");
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top:350px;
 }
 
 #section-2{
-    height: 500px;
+    /*height: 500px;*/
     background-color: rgb(37, 34, 224);
     margin-bottom: 10px;
 }
 
 #section-2-top{
-    height:98px;
+    /*height:90px;*/
     background-color: cyan;
-    margin-bottom:2px;
+    margin-bottom:10px;
 }
 
 #section-2-bottom::after{ /*così da non far collassare il div che contiene le tre sotto sezioni*/
@@ -48,31 +50,67 @@ header{
 
 #left{
     width: 20%;
-    height:398px;
+    height:390px;
     background-color: cyan;
     float:left;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
+    background-image: url("img/img-1.jpg");
 }
 
 #center{
-width:58%;
-height: 398px;
+width:56%;
+height: 390px;
 background-color: cyan;
 float:left;
-margin-left:2px;
-margin-right:2px;
-margin-bottom:2px;
+margin-left:2%;
+margin-right:2%;
+margin-bottom:10px;
+background-image: url(img/banner-2.jpg);
 }
 
 #right{
     width: 20%;
-    height: 398px;
+    height: 390px;
     background-color: cyan;
     float:left;
-    margin-bottom:2px;
+    margin-bottom:10px;
+    background-image: url("img/img-3.jpg");
 }
 
 footer{
     height: 30px;
     background-color: rgb(98, 3, 98);
 }
+/******/
+li{
+    list-style-type: none;
+    display: inline-block;  /*non uso inline perchè magari poi vorrei metterci mano alle grandezze width ed height*/
+    padding:5px;
+}
+
+a{
+    text-decoration: none;
+    color:grey;
+}
+
+#frase1{
+    color:rgb(209, 206, 206);
+    font-weight: 600;
+}
+
+#frase2{
+    color:rgb(209, 206, 206);
+}
+
+#titolo-section-2-top{
+    font-weight: 800;
+    font-size: 35px;
+}
+
+#sottotitolo-section-2-top{
+    color:rgb(209, 206, 206);
+    font-weight: 100;
+}
+
+
+
