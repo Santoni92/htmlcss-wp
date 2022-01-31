@@ -21,18 +21,27 @@
 }*/
 
 header{
-    height: 165px;
-    background-color: violet;
+    /*background-color: violet;*/
     margin-bottom: 10px;
+}
+
+.debug .header{
+    height: 60px;
+}
+
+#logo{
+    height:50px;
+    border-right:1px solid gainsboro;
+    padding-right:5px;
 }
 
 .section-1{
     /*background-color: rgb(145, 145, 5);*/
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     background-image: url(img/banner.jpg);
     background-color: rgba(0,0,0,0.1);
-    padding-top:50%;
-    padding-left: 5%;
+    padding-top:500px;
+    padding-left: 20px;
 }
 
 .debug .section-1{
@@ -40,7 +49,7 @@ header{
 }
 
 .section-2{
-    background-color: rgb(37, 34, 224);
+    /*background-color: rgb(37, 34, 224);*/
     margin-bottom: 5px;
 }
 
@@ -49,50 +58,51 @@ header{
 }
 
 .section-2-top{
-    background-color: cyan;
+   /* background-color: cyan;*/
     margin-bottom: 5px;
 }
 
 .debug .section-2-top{
-    height: 60px;
+    height: 50px;
 }
 
 .left-col{
     width: 20%;
-    background-color: cyan;
+    /*background-color: cyan;*/
     float:left;
     margin-bottom: 5px;
 }
 
 .debug .left-col{
-    height: 395px;
+    height: 500px;
 }
 
 .center-col{
 width:56%;
-background-color: cyan;
+/*background-color: cyan;*/
 float:left;
 margin-left:2%;
 margin-right:2%;
 margin-bottom: 5px;
 }
 .debug .center-col{
-   height: 395px;
+   height: 500px;
 }
 
 .right-col{
     width: 20%;
-    background-color: cyan;
+    /*background-color: cyan;*/
     float:left;
     margin-bottom: 5px;
 }
 
 .debug .right-col{
-    height: 395px;
+    height: 500px;
 }
 
 .footer{
-    background-color: rgb(98, 3, 98);
+    /*background-color: rgb(98, 3, 98);*/
+    text-align: center;
 }
 
 .debug .footer{
@@ -126,23 +136,28 @@ a{
     color:silver;
 }
 
-.immagini-section-2-bottom-left{
-    height: 40%;
+.immagine-sinistra{
+    height: 150px;
     width:100%;
-    background-color: rgba(0,0,0,0.1);
+    background-image: url(img/img-1.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-
-.immagini-section-2-bottom-center{
-    height: 40%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.1);
+.immagine-centrale{
+    height: 150px;
+    width:100%;
+    background-image: url(img/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-.immagini-section-2-bottom-right{
-    height: 40%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.1);
+.immagine-destra{
+    height: 150px;
+    width:100%;
+    background-image: url(img/img-3.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 h3{
@@ -152,3 +167,12 @@ h3{
 .testo-section-2-bottom-left{
     height:60%;
 }
+
+.testo-section-2-bottom-center{
+    height:60%;
+}
+
+.testo-section-2-bottom-right{
+    height: 60%;;
+}
+
